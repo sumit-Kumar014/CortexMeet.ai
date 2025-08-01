@@ -7,5 +7,6 @@ export default defineConfig({
   dialect: 'postgresql',
   dbCredentials: {
     url: process.env.DATABASE_URL!,
+    //! :  ! is the non-null assertion operator in TypeScript. This is used when TypeScript can't guarantee that a value is present, but you (as the developer) know it will be.
   },
 });
